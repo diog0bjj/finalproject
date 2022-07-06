@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-height:5rem;
+height:10vh;
 background-color:#e5e7eb;
 display:flex;
 justify-content:flex-end;

@@ -9,15 +9,16 @@ margin:0 auto;`
 
 export const EachProject = styled.div`
 border:solid black;
+border-width:thin;
 width:17rem;
 height:20rem;
 display:flex;
 flex-direction:column;
 align-items:center;
-margin:1rem;`
+margin:1rem;
+box-shadow:0px 0px 0.5rem black;`
 
 export const Img = styled.div`
-background-color:red;
 height:17rem;
 width:17rem;`
 

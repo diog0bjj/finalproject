@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ItsMe from "../../../../Assets/ItsMe.png"
 
 export const Container = styled.section`
-height:25rem;
+height:70vh;
 width:100%;
 background-image:url('https://wallpapermemory.com/uploads/458/rio-de-janeiro-wallpaper-ultra-hd-4k-482743.jpg');
 margin:0 auto;

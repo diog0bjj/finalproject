@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const Containers = styled.section`
-background-color:#FFEBCD;
 display:flex;
 justify-content:space-evenly;
 align-items:center;
