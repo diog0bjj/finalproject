@@ -1,10 +1,7 @@
 import React from "react";
-import BlogPages from "./Pages/BlogPage/Blog.js";
 import { createGlobalStyle} from "styled-components";
-import AboutMePages from "./Pages/AboutMePage/AboutMe";
-import WorksPages from "./Pages/Works/Works.js"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -18,14 +15,9 @@ const GlobalStyle = createGlobalStyle`
 export default function App() {
   return (
     <>
-    <Router>
     <GlobalStyle/>
-    <Routes>
-            <Route path='/Works.js' element={<WorksPages/>}/>
-            <Route path='/' element={<BlogPages/>}/>
-            <Route path='/AboutMe.js' element={<AboutMePages/>}/>
-        </Routes>
-    </Router>
+    <Header/>
+    <Footer/>
     </>
   )
 }

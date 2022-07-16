@@ -1,8 +1,8 @@
 import React from "react";
-import * as S from "./Smain";
-import athlete from "../../../../Assets/athlete.png";
-import NH from "../../../../Assets/Nh.jpg"
-import Vnw from "../../../../Assets/Vnw.png"
+import * as S from "./SaboutMe";
+import athlete from "../../../Assets/athlete.png";
+import NH from "../../../Assets/Nh.jpg"
+import Vnw from "../../../Assets/Vnw.png"
 
 export default function Main(){
     return(

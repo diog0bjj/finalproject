@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from './Smain'
+import * as S from './Shome'
 
 
 export default function Main(){

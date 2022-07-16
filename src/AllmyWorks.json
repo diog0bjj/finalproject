@@ -4,14 +4,13 @@
         "Nome":"Contador",
         "LinkRep":"https://github.com/diog0bjj/cronometro",
         "LinkPage":"https://cronometroinicial.netlify.app/",
-        "Back":"./Assets/Contador.png"
+        "Back":"Contador"
     },
     {
         "id":"1",
         "Nome":"DogApi",
         "LinkRep":"https://github.com/diog0bjj/DogApi",
-        "LinkPage":"https://dogapibydiogo.netlify.app/",
-        "Back":"../../../../Assets/DogApi.png"
+        "LinkPage":"https://dogapibydiogo.netlify.app/"
     },
     {
         "id":"2",
