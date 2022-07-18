@@ -1,6 +1,5 @@
 import styled, {keyframes} from "styled-components";
 import ItsMe from "../../../Assets/ItsMe.png"
-import Fundo from '../../../Assets/Fundo.png'
 
 export const digit = keyframes`
 0%{
