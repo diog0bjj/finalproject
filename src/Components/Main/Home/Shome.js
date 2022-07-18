@@ -46,11 +46,17 @@ export const Me = styled.div`
 background-image:url('${ItsMe}');
 background-position:center;
 background-size:cover;
-width:16rem;
-height:16rem;
+width:22rem;
+height:22rem;
 border-radius:50%;
 border: double #ea4626;
-border-width:thin;`
+border-width:thin;
+
+@media(max-width:700px){
+    width:16rem;
+    height:16rem;
+    margin-top:2vh;
+}`
 
 export const myBlog = styled.div`
 display:flex;
@@ -91,6 +97,11 @@ width:15rem;
     background-color:#212529;
     color:#fff;
     border:1px double #ea4626;
+
+    &:hover{
+        background-color:#ea4626;
+        transition: linear 0.5s;
+    }
 }`
 
 export const SideCarIcon = styled.div`

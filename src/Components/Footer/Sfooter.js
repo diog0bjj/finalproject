@@ -12,4 +12,5 @@ display:flex;
 justify-content:space-evenly;
 align-items:center;
 height:4rem;
-width:20rem;`
+width:50vw;
+min-width:20rem;`

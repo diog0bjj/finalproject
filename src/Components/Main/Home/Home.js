@@ -13,10 +13,10 @@ export default function Main(){
                 <S.Welcome>Welcome to my Page</S.Welcome>
                 <nav>
                     <S.Contacts>
-                        <li>Instagram</li>
-                        <li>Linkedin</li>
-                        <li>Gmail</li>
-                        <li>Github</li>
+                        <a href='https://instagram.com/ggsantz'><li>Instagram</li></a>
+                        <a href='https://www.linkedin.com/in/diogo-sales-368b64224'><li>Linkedin</li></a>
+                        <a href='mailto:dsales289@poli.ufrj.br'><li>Gmail</li></a>
+                        <a href='https://github.com/diog0bjj'><li>Github</li></a>
                     </S.Contacts>
                 </nav>
             </S.myBlog>
