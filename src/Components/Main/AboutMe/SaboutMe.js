@@ -1,47 +1,52 @@
-import styled from "styled-components";
+import styled,{keyframes} from "styled-components";
 
-
-export const Containers = styled.section`
-display:flex;
-justify-content:space-evenly;
-align-items:center;
-width:100%;
-height:29rem;
-
-@media(max-width:700px){
-    flex-direction:column;
-    height:37rem;
+export const digit = keyframes`
+from{
+    width:1rem;
+}
+to{
+    width:14rem;
 }`
+
+export const Container = styled.section`
+background-color:#212529;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:space-around;
+height:80vh;`
+
+export const One = styled.div`
+height:20vh;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;`
+
+export const Me = styled.img`
+width:20rem;
+height:15rem;`
+
+export const Title = styled.h1`
+animation: ${digit} 2s steps(15);
+margin-bottom:1rem;
+text-transform:uppercase;
+white-space: nowrap;
+color:#ea4626;
+overflow:hidden;
+font-size:6vh;
+letter-spacing:0.2rem;`
 
 export const Infos = styled.div`
-position:relative;
-height:18rem;`
-
-export const Text = styled.p`
+width:90vw;
+height:50vh;
+background-color:white;
 display:flex;
-align-items:center;
-text-align: center;
-width:12rem;
-border:double #ea4626;
-background-color:#212529;
-color:#fff;
-border-width:thin;
-font-size:11px;
-font-weight:500;
-height:6.5rem;
-position:absolute;
-top:90%;
-left:20%;
-@media(max-width:700px){
-    left:10%;
-}`
+justify-content:space-around;
+align-items:center;`
 
-export const Photos = styled.img`
-width:20rem;
-height:18rem;
-border:solid #ea4626;
-border-width:thin;
-
-@media(max-width:700px){
-    width:15rem;
-}`
+export const Text = styled.div`
+height:40vh;
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;`

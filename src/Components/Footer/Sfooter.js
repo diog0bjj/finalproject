@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-background-color:#fff;
-height:4rem;
+background-color:#e5e7eb;
+height:10vh;
 display:flex;
 justify-content:center;`
 

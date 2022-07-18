@@ -6,6 +6,7 @@ import TodoFlix from '../../../Assets/TodoFlix.png';
 import DogApi from '../../../Assets/DogApi.png';
 import PortFlow from '../../../Assets/PortFlow.png';
 import MareGoals from '../../../Assets/MareGoals.png';
+import Mario from '../../../Assets/Mario.png'
 import Cards from './Cards'
 import Footer from "../../Footer/Footer";
 
@@ -47,6 +48,11 @@ export default function Main(){
                 <h2>MaréGoals</h2>
                 <a href="https://maregoals.netlify.app/"><S.PageOnLine src={MareGoals} alt='Imagem do site Contador'/></a>
                 <a href="https://github.com/diog0bjj/MareGoals"><S.Link>Repositorio</S.Link></a>
+            </Cards>
+            <Cards>
+                <h2>Mario Keyframes</h2>
+                <a href="https://testingkeyframes.netlify.app/"><S.PageOnLine src={Mario} alt='Imagem do site Super Mario com Keyframes'/></a>
+                <a href="https://github.com/diog0bjj/TestingKeyFrames"><S.Link>Repositorio</S.Link></a>
             </Cards>
         </S.Portfolio>
         <Footer/>

@@ -12,7 +12,7 @@ export const PageOnLine = styled.img`
 width:17rem;
 height:17rem;
 object-fit:cover;
-object-fit:center;
+object-position:center;
 border: 1px solid black;`
 
 export const Link = styled.h2`

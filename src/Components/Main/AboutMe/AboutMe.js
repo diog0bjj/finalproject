@@ -1,32 +1,25 @@
 import React from "react";
 import * as S from "./SaboutMe";
 import athlete from "../../../Assets/athlete.png";
-import NH from "../../../Assets/Nh.jpg"
-import Vnw from "../../../Assets/Vnw.png"
 import Footer from "../../Footer/Footer";
+
 
 export default function Main(){
     return(
-        <div style={{backgroundColor:'#212529'}}>
-        <S.Containers>
+        <>
+        <S.Container>
+                <S.Title>About Me</S.Title>
             <S.Infos>
-                <S.Photos src={athlete} alt='Foto pessoal'/>
-                <S.Text>Prazer, Meu nome é Diogo Sales, tenho 20 anos, Sou aluno de engenharia civil na UFRJ e estudante de Programaçao pelo VnW. Fora isso, tento ser um atleta de jiujitsu.</S.Text>
+                <S.Text>
+                    <h2>Quem Sou eu</h2>
+                    <p>Prazer, meu nome é Diogo Sales, tenho 20 anos e sou nascido e criado no Complexo da Maré, Zona Norte do Rio de Janeiro.</p>
+                    <p>Atualmente estou cursando Engenharia Civil na UFRJ, desenvolvimento Web no Vai na Web e Lutando Jiu jitsu no tempo livre</p>
+                    <p>No caso, eu cai de paraquedas na área de programaçao porém curti muito a área e pretendo continuar me desenvolvendo nela</p>
+                </S.Text>
+                <S.Me src={athlete} alt="imagem minha na academia"/>
             </S.Infos>
-        </S.Containers>
-        <S.Containers>
-            <S.Infos>
-                <S.Photos src={NH} alt= 'Foto de onde moro'/>
-                <S.Text>Atualmente moro em um bairro chamado Maré. No caso, além de bairro, a Maré é também um complexo de favelas localizado na zona norte da cidade do Rio de Janeiro, RJ.</S.Text>
-            </S.Infos>
-        </S.Containers>
-        <S.Containers>
-            <S.Infos>
-                <S.Photos src={Vnw} alt='Foto do Vai na Web, instituiçao a qual estudo programaçao'/>
-                <S.Text>Como disse, estou fazendo programaçao no VnW, porém foi algo repentino na minha vida, eu nunca esparava estar programando sites como esse. So tenho a agradecer.</S.Text>
-            </S.Infos>
-        </S.Containers>
+        </S.Container>
         <Footer/>
-        </div>
+        </>
     )
 }
