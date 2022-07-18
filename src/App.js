@@ -1,7 +1,7 @@
 import React from "react";
 import { createGlobalStyle} from "styled-components";
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
+
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -17,7 +17,6 @@ export default function App() {
     <>
     <GlobalStyle/>
     <Header/>
-    <Footer/>
     </>
   )
 }

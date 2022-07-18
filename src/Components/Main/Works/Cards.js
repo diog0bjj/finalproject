@@ -10,6 +10,8 @@ display:flex;
 flex-direction:column;
 align-items:center;
 margin:1rem;
+justify-content:space-between;
+background-color:#f1f2f4;
 box-shadow:0px 0px 0.5rem black;
 textDecoration:none;
 color:currentcolor;`

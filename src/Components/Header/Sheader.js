@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-height:5rem;
+height:10vh;
 background-color:#e5e7eb;
 display:flex;
 justify-content:flex-end;
@@ -14,7 +14,7 @@ align-items:center;
 export const Menu = styled.ul`
 list-style:none;
 display:flex;
-width:15rem;
+width:19rem;
 justify-content:space-evenly;
 font-weight:bold;
 font-size:15px;`

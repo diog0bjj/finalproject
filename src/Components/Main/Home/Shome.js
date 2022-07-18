@@ -1,29 +1,102 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 import ItsMe from "../../../Assets/ItsMe.png"
+import Fundo from '../../../Assets/Fundo.png'
+
+export const digit = keyframes`
+0%{
+    width:1rem;
+}
+50%{
+    width:18rem;
+}
+100%{
+    width:1rem;
+}`
+
+export const bar = keyframes`
+from{
+    border-color:#ea4626;
+}
+to{
+    border-color:transparent;
+}
+`
+
+export const Move = keyframes`
+0%{
+    bottom:0%;
+}
+100%{
+    bottom:110%;
+}`
 
 export const Container = styled.section`
-height:80vh;
+background-color:#212529;
+min-height:90vh;
 width:100%;
-background-image:url('https://wallpapermemory.com/uploads/458/rio-de-janeiro-wallpaper-ultra-hd-4k-482743.jpg');
 margin:0 auto;
-background-size:cover;
-background-position:bottom;
 display:flex;
 flex-wrap:wrap;
 align-items:center;
-justify-content:space-around;`
+justify-content:space-around;
+padding-top:2vhrem;
+position:relative;
+overflow:hidden;`
 
 export const Me = styled.div`
 background-image:url('${ItsMe}');
 background-position:center;
 background-size:cover;
-width:14rem;
-height:14rem;
+width:16rem;
+height:16rem;
 border-radius:50%;
-border: double black;
+border: double #ea4626;
 border-width:thin;`
 
+export const myBlog = styled.div`
+display:flex;
+flex-direction:column;
+height:43vh;
+justify-content:space-around;
+align-items:center;
+width:18rem;
+`
+
 export const Welcome = styled.h1`
-margin-bottom:6rem;
+margin-bottom:1rem;
 text-transform:uppercase;
-color:#fff;`
+white-space: nowrap;
+height:2rem;
+color:#ea4626;
+overflow:hidden;
+animation: ${digit} 6s steps(19) infinite, ${bar} 600ms steps(19) infinite normal;
+border-right: 1px solid #ea4626; `
+
+
+export const Contacts = styled.ul`
+list-style:none;
+width:15rem;
+
+@media(max-width:700px){
+    margin-bottom:10vh;
+}
+
+& li{
+    display:Flex;
+    align-items:center;
+    padding-left:0.5vw;
+    height:2rem;
+    background-color:#fff;
+    margin:0.5rem;
+    transform: skew(-10deg);
+    background-color:#212529;
+    color:#fff;
+    border:1px double #ea4626;
+}`
+
+export const SideCarIcon = styled.div`
+position:absolute;
+left:0%;
+animation:${Move} linear 3s infinite;
+height:5vh;
+width:5vh;`

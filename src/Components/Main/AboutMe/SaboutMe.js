@@ -22,11 +22,12 @@ display:flex;
 align-items:center;
 text-align: center;
 width:12rem;
-border:double black;
-background-color:white;
+border:double #ea4626;
+background-color:#212529;
+color:#fff;
 border-width:thin;
 font-size:11px;
-font-weight:700;
+font-weight:500;
 height:6.5rem;
 position:absolute;
 top:90%;
@@ -38,7 +39,7 @@ left:20%;
 export const Photos = styled.img`
 width:20rem;
 height:18rem;
-border:solid black;
+border:solid #ea4626;
 border-width:thin;
 
 @media(max-width:700px){
